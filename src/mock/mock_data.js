@@ -14,6 +14,13 @@ export const mockData = {
           "icon": "/sitelogo/chatgpt.com.ico"
         },
         {
+          "id": "site-1753154545556",
+          "name": "深度求索",
+          "url": "https://chat.deepseek.com/",
+          "description": "",
+          "icon": "/sitelogo/chat.deepseek.com.ico"
+        },
+        {
           "id": "linux-do",
           "name": "Linux.do",
           "url": "https://linux.do",
@@ -26,6 +33,13 @@ export const mockData = {
           "url": "https://www.bejson.com/",
           "description": "工具大全",
           "icon": "/sitelogo/www.bejson.com.ico"
+        },
+        {
+          "id": "site-1753154509638",
+          "name": "百度",
+          "url": "https://www.baidu.com/",
+          "description": "",
+          "icon": "/sitelogo/www.baidu.com.ico"
         },
         {
           "id": "github",
@@ -481,6 +495,5 @@ export const mockData = {
       ]
     }
   ],
-  "title": "拷贝导航",
-  "_fileSha": "090ef6bed6388cbae3c979d9c6722a2bebc6f27b"
+  "title": "拷贝导航"
 }
