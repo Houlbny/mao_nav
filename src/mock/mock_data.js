@@ -58,10 +58,46 @@ export const mockData = {
       ]
     },
     {
+      "id": "learning",
+      "name": "学习资源",
+      "icon": "📚",
+      "order": 1,
+      "sites": [
+        {
+          "id": "w3school",
+          "name": "W3Schools",
+          "url": "https://www.w3schools.com",
+          "description": "Web技术教程",
+          "icon": "/sitelogo/www.w3schools.com.ico"
+        },
+        {
+          "id": "runoob",
+          "name": "菜鸟教程",
+          "url": "https://www.runoob.com",
+          "description": "编程技术教程",
+          "icon": "/sitelogo/www.runoob.com.ico"
+        },
+        {
+          "id": "coursera",
+          "name": "Coursera",
+          "url": "https://www.coursera.org",
+          "description": "在线课程平台",
+          "icon": "/sitelogo/www.coursera.org.ico"
+        },
+        {
+          "id": "mdn",
+          "name": "MDN Web Docs",
+          "url": "https://developer.mozilla.org",
+          "description": "Web开发权威文档",
+          "icon": "/sitelogo/developer.mozilla.org.ico"
+        }
+      ]
+    },
+    {
       "id": "ai-tools",
       "name": "AI智能",
       "icon": "🤖",
-      "order": 1,
+      "order": 2,
       "sites": [
         {
           "id": "chatgpt",
@@ -87,52 +123,102 @@ export const mockData = {
       ]
     },
     {
-      "id": "cloud",
-      "name": "云服务",
-      "icon": "☁️",
-      "order": 2,
+      "id": "tools",
+      "name": "在线工具",
+      "icon": "⚙️",
+      "order": 3,
       "sites": [
         {
-          "id": "cloudflare",
-          "name": "Cloudflare",
-          "url": "https://www.cloudflare.com",
-          "description": "全球CDN和网络安全服务",
-          "icon": "/sitelogo/www.cloudflare.com.ico"
+          "id": "regex101",
+          "name": "Regex101",
+          "url": "https://regex101.com",
+          "description": "正则表达式测试",
+          "icon": "/sitelogo/regex101.com.ico"
         },
         {
-          "id": "vercel",
-          "name": "Vercel",
-          "url": "https://vercel.com",
-          "description": "前端部署平台",
-          "icon": "/sitelogo/vercel.com.ico"
+          "id": "json-formatter",
+          "name": "JSON Formatter",
+          "url": "https://jsonformatter.org",
+          "description": "JSON格式化工具",
+          "icon": "/sitelogo/jsonformatter.org.ico"
         },
         {
-          "id": "aliyun",
-          "name": "阿里云",
-          "url": "https://www.aliyun.com",
-          "description": "阿里巴巴云计算",
-          "icon": "/sitelogo/www.aliyun.com.ico"
+          "id": "caniuse",
+          "name": "Can I Use",
+          "url": "https://caniuse.com",
+          "description": "浏览器兼容性查询",
+          "icon": "/sitelogo/caniuse.com.ico"
         },
         {
-          "id": "tencent-cloud",
-          "name": "腾讯云",
-          "url": "https://cloud.tencent.com",
-          "description": "腾讯云计算服务",
-          "icon": "/sitelogo/cloud.tencent.com.ico"
+          "id": "tinypng",
+          "name": "TinyPNG",
+          "url": "https://tinypng.com",
+          "description": "图片压缩工具",
+          "icon": "/sitelogo/tinypng.com.ico"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "name": "财经投资",
+      "icon": "💰",
+      "order": 4,
+      "sites": [
+        {
+          "id": "binance",
+          "name": "币安",
+          "url": "https://www.binance.com",
+          "description": "加密货币交易平台",
+          "icon": "/sitelogo/www.binance.com.ico"
         },
         {
-          "id": "huawei-cloud",
-          "name": "华为云",
-          "url": "https://www.huaweicloud.com",
-          "description": "华为云计算服务",
-          "icon": "/sitelogo/www.huaweicloud.com.ico"
+          "id": "okx",
+          "name": "OKX",
+          "url": "https://www.okx.com",
+          "description": "数字资产交易服务平台",
+          "icon": "/sitelogo/www.okx.com.ico"
         },
         {
-          "id": "site-1752644060499",
-          "name": "怕死云",
-          "url": "https://www.pasyun.com/",
-          "description": "ipv6机器",
-          "icon": "/sitelogo/www.pasyun.com.ico"
+          "id": "bitget",
+          "name": "Bitget",
+          "url": "https://www.bitget.com",
+          "description": "全球化数字资产交易服务商",
+          "icon": "/sitelogo/www.bitget.com.ico"
+        },
+        {
+          "id": "tradingview",
+          "name": "TradingView",
+          "url": "https://cn.tradingview.com",
+          "description": "专业金融图表和交易平台",
+          "icon": "/sitelogo/cn.tradingview.com.ico"
+        },
+        {
+          "id": "tonghuashun",
+          "name": "同花顺",
+          "url": "https://www.10jqka.com.cn",
+          "description": "专业股票软件及金融信息服务",
+          "icon": "/sitelogo/www.10jqka.com.cn.ico"
+        },
+        {
+          "id": "xueqiu",
+          "name": "雪球",
+          "url": "https://xueqiu.com",
+          "description": "聪明的投资者都在这里",
+          "icon": "/sitelogo/xueqiu.com.ico"
+        },
+        {
+          "id": "coinbase",
+          "name": "Coinbase",
+          "url": "https://www.coinbase.com",
+          "description": "美国合规加密货币交易平台",
+          "icon": "/sitelogo/www.coinbase.com.ico"
+        },
+        {
+          "id": "futu",
+          "name": "富途牛牛",
+          "url": "https://www.futunn.com",
+          "description": "港美股交易软件",
+          "icon": "/sitelogo/www.futunn.com.ico"
         }
       ]
     },
@@ -140,7 +226,7 @@ export const mockData = {
       "id": "dev-tools",
       "name": "开发工具",
       "icon": "🛠️",
-      "order": 3,
+      "order": 5,
       "sites": [
         {
           "id": "github",
@@ -216,10 +302,60 @@ export const mockData = {
       ]
     },
     {
+      "id": "cloud",
+      "name": "云服务",
+      "icon": "☁️",
+      "order": 7,
+      "sites": [
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare",
+          "url": "https://www.cloudflare.com",
+          "description": "全球CDN和网络安全服务",
+          "icon": "/sitelogo/www.cloudflare.com.ico"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel",
+          "url": "https://vercel.com",
+          "description": "前端部署平台",
+          "icon": "/sitelogo/vercel.com.ico"
+        },
+        {
+          "id": "aliyun",
+          "name": "阿里云",
+          "url": "https://www.aliyun.com",
+          "description": "阿里巴巴云计算",
+          "icon": "/sitelogo/www.aliyun.com.ico"
+        },
+        {
+          "id": "tencent-cloud",
+          "name": "腾讯云",
+          "url": "https://cloud.tencent.com",
+          "description": "腾讯云计算服务",
+          "icon": "/sitelogo/cloud.tencent.com.ico"
+        },
+        {
+          "id": "huawei-cloud",
+          "name": "华为云",
+          "url": "https://www.huaweicloud.com",
+          "description": "华为云计算服务",
+          "icon": "/sitelogo/www.huaweicloud.com.ico"
+        },
+        {
+          "id": "site-1752644060499",
+          "name": "怕死云",
+          "url": "https://www.pasyun.com/",
+          "description": "ipv6机器",
+          "icon": "/sitelogo/www.pasyun.com.ico"
+        }
+      ]
+    },
+    {
       "id": "design",
       "name": "设计工具",
       "icon": "🎨",
-      "order": 4,
+      "order": 8,
       "sites": [
         {
           "id": "figma",
@@ -238,146 +374,10 @@ export const mockData = {
       ]
     },
     {
-      "id": "finance",
-      "name": "财经投资",
-      "icon": "💰",
-      "order": 5,
-      "sites": [
-        {
-          "id": "binance",
-          "name": "币安",
-          "url": "https://www.binance.com",
-          "description": "加密货币交易平台",
-          "icon": "/sitelogo/www.binance.com.ico"
-        },
-        {
-          "id": "okx",
-          "name": "OKX",
-          "url": "https://www.okx.com",
-          "description": "数字资产交易服务平台",
-          "icon": "/sitelogo/www.okx.com.ico"
-        },
-        {
-          "id": "bitget",
-          "name": "Bitget",
-          "url": "https://www.bitget.com",
-          "description": "全球化数字资产交易服务商",
-          "icon": "/sitelogo/www.bitget.com.ico"
-        },
-        {
-          "id": "tradingview",
-          "name": "TradingView",
-          "url": "https://cn.tradingview.com",
-          "description": "专业金融图表和交易平台",
-          "icon": "/sitelogo/cn.tradingview.com.ico"
-        },
-        {
-          "id": "tonghuashun",
-          "name": "同花顺",
-          "url": "https://www.10jqka.com.cn",
-          "description": "专业股票软件及金融信息服务",
-          "icon": "/sitelogo/www.10jqka.com.cn.ico"
-        },
-        {
-          "id": "xueqiu",
-          "name": "雪球",
-          "url": "https://xueqiu.com",
-          "description": "聪明的投资者都在这里",
-          "icon": "/sitelogo/xueqiu.com.ico"
-        },
-        {
-          "id": "coinbase",
-          "name": "Coinbase",
-          "url": "https://www.coinbase.com",
-          "description": "美国合规加密货币交易平台",
-          "icon": "/sitelogo/www.coinbase.com.ico"
-        },
-        {
-          "id": "futu",
-          "name": "富途牛牛",
-          "url": "https://www.futunn.com",
-          "description": "港美股交易软件",
-          "icon": "/sitelogo/www.futunn.com.ico"
-        }
-      ]
-    },
-    {
-      "id": "learning",
-      "name": "学习资源",
-      "icon": "📚",
-      "order": 6,
-      "sites": [
-        {
-          "id": "w3school",
-          "name": "W3Schools",
-          "url": "https://www.w3schools.com",
-          "description": "Web技术教程",
-          "icon": "/sitelogo/www.w3schools.com.ico"
-        },
-        {
-          "id": "runoob",
-          "name": "菜鸟教程",
-          "url": "https://www.runoob.com",
-          "description": "编程技术教程",
-          "icon": "/sitelogo/www.runoob.com.ico"
-        },
-        {
-          "id": "coursera",
-          "name": "Coursera",
-          "url": "https://www.coursera.org",
-          "description": "在线课程平台",
-          "icon": "/sitelogo/www.coursera.org.ico"
-        },
-        {
-          "id": "mdn",
-          "name": "MDN Web Docs",
-          "url": "https://developer.mozilla.org",
-          "description": "Web开发权威文档",
-          "icon": "/sitelogo/developer.mozilla.org.ico"
-        }
-      ]
-    },
-    {
-      "id": "tools",
-      "name": "在线工具",
-      "icon": "⚙️",
-      "order": 7,
-      "sites": [
-        {
-          "id": "regex101",
-          "name": "Regex101",
-          "url": "https://regex101.com",
-          "description": "正则表达式测试",
-          "icon": "/sitelogo/regex101.com.ico"
-        },
-        {
-          "id": "json-formatter",
-          "name": "JSON Formatter",
-          "url": "https://jsonformatter.org",
-          "description": "JSON格式化工具",
-          "icon": "/sitelogo/jsonformatter.org.ico"
-        },
-        {
-          "id": "caniuse",
-          "name": "Can I Use",
-          "url": "https://caniuse.com",
-          "description": "浏览器兼容性查询",
-          "icon": "/sitelogo/caniuse.com.ico"
-        },
-        {
-          "id": "tinypng",
-          "name": "TinyPNG",
-          "url": "https://tinypng.com",
-          "description": "图片压缩工具",
-          "icon": "/sitelogo/tinypng.com.ico"
-        }
-      ]
-    },
-    {
       "id": "entertainment",
       "name": "娱乐休闲",
       "icon": "🎮",
-      "order": 8,
+      "order": 9,
       "sites": [
         {
           "id": "bilibili",
@@ -399,7 +399,7 @@ export const mockData = {
       "id": "office",
       "name": "办公协作",
       "icon": "💼",
-      "order": 9,
+      "order": 10,
       "sites": [
         {
           "id": "notion",
